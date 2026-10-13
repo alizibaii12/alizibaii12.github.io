@@ -1,228 +1,154 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>دکتر علی زیبایی | فوق‌تخصص زنان و زایمان</title>
-    <meta
-      name="description"
-      content="بیوگرافی رسمی دکتر علی زیبایی، فوق‌تخصص زنان و زایمان، با تمرکز بر مراقبت‌های تخصصی زنان، زایمان و سلامت باروری."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>دکتر علی زیبایی — فوق‌تخصص زنان و زایمان</title>
+    <meta name="description" content="بیوگرافی و صفحه خدمات دکتر علی زیبایی، فوق‌تخصص زنان و زایمان. رزرو نوبت، مقالات و اطلاعات تماس." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="topbar">
-      <div class="container nav">
+    <header class="site-header">
+      <div class="container header-inner">
         <div class="brand">
-          <span class="brand-mark">دکتر</span>
-          <span>علی زیبایی</span>
+          <div class="logo">دکتر<br><span>علی زیبایی</span></div>
         </div>
-        <nav class="menu" aria-label="منوی اصلی">
-          <a href="#about">درباره من</a>
-          <a href="#experience">تجربه</a>
+        <nav class="site-nav" aria-label="منوی اصلی">
+          <a href="#about">درباره</a>
           <a href="#services">خدمات</a>
           <a href="#articles">مقالات</a>
-          <a href="#contact">تماس</a>
+          <a href="#contact" class="cta">نوبت‌دهی</a>
         </nav>
-        <a class="nav-button" href="#contact">نوبت‌دهی</a>
       </div>
     </header>
 
     <main>
       <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <span class="eyebrow">فوق‌تخصص زنان و زایمان</span>
-            <h1>دکتر علی زیبایی</h1>
-            <p class="subtitle">
-              ارائه خدمات تخصصی در حوزه سلامت زنان، مراقبت‌های بارداری، زایمان و
-              مشاوره‌های پیشگیرانه با رویکردی دقیق، انسانی و مدرن.
-            </p>
-            <div class="hero-actions">
-              <a href="#contact" class="primary-btn">رزرو مشاوره</a>
-              <a href="#about" class="secondary-btn">درباره من</a>
+        <!-- استفاده از تصویر مشابهی که فرستادی به عنوان پس‌زمینه -->
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="profile-card">
+            <div class="profile-media">
+              <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895977?auto=format&fit=crop&w=900&q=80" alt="دکتر علی زیبایی">
             </div>
-            <ul class="hero-stats">
-              <li><strong>۱۲+</strong><span>سال تجربه</span></li>
-              <li><strong>۸k+</strong><span>مراجعین</span></li>
-              <li><strong>۲۵+</strong><span>مقاله و ارائه</span></li>
-            </ul>
-          </div>
+            <div class="profile-content">
+              <h1>دکتر علی زیبایی</h1>
+              <p class="title">فوق‌تخصص زنان و زایمان</p>
+              <p class="lead">ارائه خدمات تخصصی در زمینه سلامت باروری، مراقبت‌های دوران بارداری، زایمان و درمان‌های تخصصی زنان با رویکردی علمی و انسانی.</p>
 
-          <div class="hero-visual" aria-label="تصویر پزشک">
-            <div class="image-card">
-              <img
-                src="https://images.unsplash.com/photo-1538108149393-fbbd81895977?auto=format&fit=crop&w=900&q=80"
-                alt="دکتر در مطب"
-              />
-              <div class="floating-note">
-                <span class="note-title">میزان رضایت</span>
-                <strong>۹۸٪</strong>
+              <div class="profile-actions">
+                <a href="#contact" class="btn primary">رزرو آنلاین</a>
+                <a href="#about" class="btn ghost">درباره من</a>
               </div>
+
+              <ul class="profile-stats">
+                <li><strong>۱۲+</strong><span>سال تجربه</span></li>
+                <li><strong>۸k+</strong><span>مراجعین</span></li>
+                <li><strong>۲۵+</strong><span>مقالات و سخنرانی</span></li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section about">
-        <div class="container two-col">
-          <div class="section-heading">
-            <span class="eyebrow">درباره من</span>
-            <h2>مراقبت حرفه‌ای و همراهی دقیق در مسیر سلامت شما</h2>
-          </div>
-
-          <div class="about-text">
-            <p>
-              من دکتر علی زیبایی، فوق‌تخصص زنان و زایمان هستم و با تمرکز بر
-              ارائه خدمات دقیق، امن و شخصی‌سازی‌شده در راستای ارتقای سلامت زنان
-              و خانواده‌ها فعالیت می‌کنم. زندگی حرفه‌ای من بر محور علمی‌بودن، دقت
-              در تشخیص و همدلی در برخورد با مراجعین شکل گرفته است.
-            </p>
-            <p>
-              از مشاوره‌های پیش از بارداری تا مراقبت‌های دوران بارداری، زایمان و
-              بازتوانی پس از آن، همواره تلاش می‌کنم خدماتی ارائه دهم که هم با
-              آخرین استانداردهای پزشکی هم‌راستا باشد و هم حس آرامش و اعتماد را به
-              بیمار منتقل کند.
-            </p>
-            <div class="badges">
-              <span>زنان و زایمان</span>
-              <span>بارداری</span>
-              <span>مشاوره تخصصی</span>
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-grid">
+            <div class="about-text">
+              <h2>درباره دکتر علی زیبایی</h2>
+              <p>من دکتر علی زیبایی هستم؛ فوق‌تخصص زنان و زایمان با بیش از یک دهه تجربه بالینی در مراقبت‌های بارداری، زایمان و درمان اختلالات زنان. در کار خود به ترکیبی از دانش روز، مهارت بالینی و برخورد انسانی اعتقاد دارم.</p>
+              <p>خدمات من شامل مشاوره پیش از بارداری، مراقبت‌های دوران بارداری، مدیریت زایمان، ارزیابی و درمان مشکلات شایع زنان و پیگیری پس از زایمان است.</p>
+            </div>
+            <div class="about-quick">
+              <div class="card">
+                <h3>ساعات کاری</h3>
+                <p>شنبه تا چهارشنبه — ۹:۰۰ تا ۱۷:۰۰</p>
+                <h3>مکان مطب</h3>
+                <p>تهران — خیابان نمونه — ساختمان سلامت</p>
+                <a href="#contact" class="btn primary full">رزرو مشاوره</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="experience" class="section alt-bg">
+      <section id="services" class="section alt-bg">
         <div class="container">
-          <div class="section-heading center">
-            <span class="eyebrow">تجربه و تخصص</span>
-            <h2>مسیر حرفه‌ای و آموزشی</h2>
-          </div>
-
-          <div class="timeline">
-            <article class="timeline-item">
-              <span class="year">۱۳۹۲</span>
-              <div>
-                <h3>پایان تحصیلات پزشکی عمومی</h3>
-                <p>دریافت مدرک پزشکی عمومی و آغاز مسیر تخصصی در حوزه زنان و زایمان.</p>
-              </div>
+          <h2 class="center">خدمات تخصصی</h2>
+          <div class="cards">
+            <article class="service">
+              <h4>مشاوره پیش از بارداری</h4>
+              <p>ارزیابی سلامت، آزمایش‌ها و برنامه‌ریزی برای بارداری سالم.</p>
             </article>
-            <article class="timeline-item">
-              <span class="year">۱۳۹۶</span>
-              <div>
-                <h3>تخصص زنان و زایمان</h3>
-                <p>اتمام دوره تخصصی با تمرکز بر مراقبت‌های دوران بارداری و زایمان.</p>
-              </div>
+            <article class="service">
+              <h4>مراقبت دوران بارداری</h4>
+              <p>پیگیری رشد جنین، انجام آزمایش‌ها و مدیریت ریسک‌ها.</p>
             </article>
-            <article class="timeline-item">
-              <span class="year">۱۴۰۰</span>
-              <div>
-                <h3>فوق‌تخصص مراقبت‌های خاص زنان</h3>
-                <p>تداوم آموزش و اشتغال در راستای ارتقای خدمات تخصصی و بهره‌گیری از روش‌های نوین.</p>
-              </div>
+            <article class="service">
+              <h4>زایمان و پس از زایمان</h4>
+              <p>پشتیبانی در زمان زایمان و مراقبت‌های بازتوانی پس از آن.</p>
+            </article>
+            <article class="service">
+              <h4>مشکلات شایع زنان</h4>
+              <p>ارزیابی و درمان اختلالات شایع با مسیر درمانی مشخص و کم‌تهاجمی.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="services" class="section">
+      <section id="articles" class="section">
         <div class="container">
-          <div class="section-heading center">
-            <span class="eyebrow">خدمات</span>
-            <h2>خدمات تخصصی من</h2>
-          </div>
-
-          <div class="cards-grid">
-            <article class="service-card">
-              <div class="icon">✦</div>
-              <h3>مشاوره پیش از بارداری</h3>
-              <p>بررسی وضعیت سلامت، آمادگی جسمی و روانی و ارزیابی ریسک‌ها پیش از بارداری.</p>
+          <h2 class="center">مقالات و منابع</h2>
+          <div class="article-list">
+            <article class="article-item">
+              <h4>نکات مهم در سه‌ماهه اول بارداری</h4>
+              <p>راهنمایی برای تشخیص نشانه‌ها و زمان مراجعه به پزشک.</p>
             </article>
-
-            <article class="service-card">
-              <div class="icon">✦</div>
-              <h3>مراقبت دوران بارداری</h3>
-              <p>پیگیری روند بارداری، کنترل رشد جنین، بررسی علائم و انجام آزمایش‌های لازم.</p>
-            </article>
-
-            <article class="service-card">
-              <div class="icon">✦</div>
-              <h3>زایمان و پیگیری پس از زایمان</h3>
-              <p>حمایت در زمان زایمان، مدیریت شرایط ویژه و مراقبت‌های پس از تولد و دوران نقاهت.</p>
-            </article>
-
-            <article class="service-card">
-              <div class="icon">✦</div>
-              <h3>مشاوره‌های زنان</h3>
-              <p>ارزیابی مشکلات شایع زنان، بررسی علائم، راهنمایی درمانی و پیگیری مداوم.</p>
+            <article class="article-item">
+              <h4>انتخاب روش زایمان</h4>
+              <p>مزایا و معایب روش‌های مختلف و نکات تصمیم‌گیری.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="articles" class="section alt-bg">
+      <section id="contact" class="section alt-bg">
         <div class="container">
-          <div class="section-heading center">
-            <span class="eyebrow">مقالات و آموزش</span>
-            <h2>اطلاعاتی کاربردی برای سلامت شما</h2>
-          </div>
-
-          <div class="article-grid">
-            <article class="article-card">
-              <span class="tag">بارداری</span>
-              <h3>نشانه‌های مهم در سه‌ماهه اول بارداری</h3>
-              <p>آشنایی با نشانه‌ها، زمان مناسب مراجعه و توصیه‌های کلیدی برای مراقبت از خود.</p>
-            </article>
-            <article class="article-card">
-              <span class="tag">سلامت زنان</span>
-              <h3>درمان‌های غیرتهاجمی برای مشکلات رایج</h3>
-              <p>بررسی روش‌های کم‌تهاجمی و توصیه‌های مناسب برای کاهش ریسک و افزایش کیفیت زندگی.</p>
-            </article>
-            <article class="article-card">
-              <span class="tag">زایمان</span>
-              <h3>نکات مهم برای آماده‌سازی زایمان</h3>
-              <p>آمادگی جسمی و روانی، انتخاب محل زایمان و برنامه‌ریزی برای دوران بارداری.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact">
-        <div class="container contact-box">
-          <div class="contact-copy">
-            <span class="eyebrow">تماس و نوبت‌دهی</span>
-            <h2>برای رزرو وقت و مشاوره با من در ارتباط باشید</h2>
-            <p>
-              در صورت نیاز به مشاوره تخصصی، بررسی وضعیت سلامت و دریافت راهنمایی، با
-              ما تماس بگیرید.
-            </p>
-          </div>
-
-          <div class="contact-card">
-            <ul>
-              <li><strong>تلفن:</strong> ۰۲۱-۱۲۳۴-۵۶۷۸</li>
-              <li><strong>ایمیل:</strong> dr.alizibayi@example.com</li>
-              <li><strong>آدرس:</strong> تهران، خیابان ... , مطب تخصصی زنان</li>
-            </ul>
-            <a href="mailto:dr.alizibayi@example.com" class="primary-btn full-width">
-              ارسال پیام
-            </a>
+          <div class="contact-grid">
+            <div>
+              <h2>تماس و نوبت‌دهی</h2>
+              <p>برای رزرو نوبت یا پرسش‌های تخصصی از طریق تلفن یا ایمیل اقدام کنید. در صورت نیاز می‌توانیم مشاوره آنلاین هم ترتیب دهیم.</p>
+              <ul class="contact-list">
+                <li><strong>تلفن:</strong> ۰۲۱-۱۲۳۴-۵۶۷۸</li>
+                <li><strong>ایمیل:</strong> dr.alizibayi@example.com</li>
+                <li><strong>آدرس:</strong> تهران، خیابان نمونه، مطب تخصصی زنان</li>
+              </ul>
+            </div>
+            <form class="contact-form" action="mailto:dr.alizibayi@example.com" method="post" enctype="text/plain">
+              <label>نام و نام خانوادگی
+                <input type="text" name="name" required>
+              </label>
+              <label>شماره تماس
+                <input type="tel" name="phone" required>
+              </label>
+              <label>پیام
+                <textarea name="message" rows="5"></textarea>
+              </label>
+              <button class="btn primary full" type="submit">ارسال درخواست</button>
+            </form>
           </div>
         </div>
       </section>
+
     </main>
 
-    <footer class="footer">
-      <div class="container footer-row">
-        <span>© <span id="year"></span> دکتر علی زیبایی</span>
-        <span>تمامی حقوق محفوظ است.</span>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> دکتر علی زیبایی</div>
+        <div>تمامی حقوق محفوظ است.</div>
       </div>
     </footer>
 
